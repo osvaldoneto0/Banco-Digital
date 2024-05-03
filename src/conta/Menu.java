@@ -123,8 +123,8 @@ public class Menu {
     	public static void sobre() {
 		System.out.println("\n*********************************************************");
 		System.out.println("Projeto Desenvolvido por: ");
-		System.out.println("Generation Brasil - generation@generation.org");
-		System.out.println("github.com/conteudoGeneration");
+		System.out.println("Osvaldo Neto - osvaldonetoo011@gmail.com");
+		System.out.println("https://github.com/osvaldoneto0");
 		System.out.println("*********************************************************");
 	}
     
