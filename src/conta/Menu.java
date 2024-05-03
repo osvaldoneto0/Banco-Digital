@@ -17,7 +17,7 @@ public class Menu {
 		int opcao = 0;
 
 		// Teste da Classe Conta Corrente
-		ContaCorrente cc1 = new ContaCorrente(1, 123, 1, "Adriana", 10000.0f, 1000.0f);
+		ContaCorrente cc1 = new ContaCorrente(1, 123, 1, "Adeilde", 10000.0f, 1000.0f);
 		cc1.visualizar();
 		cc1.sacar(12000.0f);
 		cc1.visualizar();
@@ -25,7 +25,7 @@ public class Menu {
 		cc1.visualizar();
 
 		// Teste da Classe Conta Poupança
-		ContaPoupanca cp1 = new ContaPoupanca(2, 123, 2, "Victor", 100000.0f, 15);
+		ContaPoupanca cp1 = new ContaPoupanca(2, 123, 2, "Pedro", 100000.0f, 15);
 		cp1.visualizar();
 		cp1.sacar(1000.0f);
 		cp1.visualizar();
@@ -72,47 +72,45 @@ public class Menu {
 
 			switch (opcao) {
 			case 1:
-				System.out.println("\n Criar Conta");
+				System.out.println(Cores.TEXT_WHITE + "Criar Conta\n\n");
 
 				keyPress();
 				break;
 			case 2:
-				System.out.println("\n Listar todas as Contas");
+				System.out.println(Cores.TEXT_WHITE + "Listar todas as Contas\n\n");
 
 				keyPress();
 				break;
 			case 3:
-				System.out.println("\n Buscar Conta por número");
+				System.out.println(Cores.TEXT_WHITE + "Consultar dados da Conta - por número\n\n");
 
 				keyPress();
 				break;
 			case 4:
-				System.out.println("\n Atualizar dados da Conta");
-
+				System.out.println(Cores.TEXT_WHITE + "Atualizar dados da Conta\n\n");
 				keyPress();
 				break;
 			case 5:
-				System.out.println("\n Apagar Conta");
-
+				System.out.println(Cores.TEXT_WHITE + "Apagar a Conta\n\n");
 				keyPress();
 				break;
 			case 6:
-				System.out.println("\n Sacar");
+				System.out.println(Cores.TEXT_WHITE + "Sacar\n\n");
 
 				keyPress();
 				break;
 			case 7:
-				System.out.println("\n Depositar");
+				System.out.println(Cores.TEXT_WHITE + "Depositar\n\n");
 
 				keyPress();
 				break;
 			case 8:
-				System.out.println("\n Transferir");
+				System.out.println(Cores.TEXT_WHITE +"Transferir\n\n");
 
 				keyPress();
 				break;
 			default:
-				System.out.println("\nOpção Inválida" + Cores.TEXT_RESET);
+				System.out.println(Cores.TEXT_RED_BOLD +"\nOpção Inválida" );
 				
 				keyPress();
 				break;
